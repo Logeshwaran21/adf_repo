@@ -56,7 +56,7 @@ customer_df = customer_df.withColumn("expenditure_status", when(customer_df["spe
 dbutils.fs.mount(
     source='wasbs://silver@storage1217.blob.core.windows.net/',
     mount_point='/mnt/silver',
-    extra_configs={'fs.azure.account.key.storage1217.blob.core.windows.net':'2XmnRo5pnsJV25ZXoaQLn8U1y0i6XOowXOKcrkIPLwPqxoJK65kLHzbPxSzswZZ0DQI9hI9uGMQ/+ASt3WUrVA=='}
+#    extra_configs={'fs.azure.account.key.storage1217.blob.core.windows.net':'2XmnRo5pnsJV25ZXoaQLn8U1y0i6XOowXOKcrkIPLwPqxoJK65kLHzbPxSzswZZ0DQI9hI9uGMQ/+ASt3WUrVA=='}
 )
 
 
